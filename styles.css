@@ -30,12 +30,12 @@ a {
 }
 
 .img-logo{
-    max-width: 40%;
+    max-width: 34%;
     flex: 1;
     padding-left: 6em;
 }
 .nav-bar{
-    max-width: 60%;
+    max-width: 66%;
     flex: 1;
     justify-content: space-between;
     padding-left: 0;
@@ -47,7 +47,9 @@ a {
     padding-left: 0; 
     padding-right: 0.5em;  
 }
-
+nav {
+    padding: 0;
+}
 /*main*/
 .main{
     display: flex;
