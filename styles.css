@@ -1,0 +1,114 @@
+/* Css Geral */
+body {
+    background-color: cadetblue;
+    padding: auto;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: antiquewhite;
+}
+.container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    
+}
+a {
+    text-decoration: none; 
+    color: inherit; 
+}
+/* Cabecalho*/
+.cabecalho {
+    display: flex;
+    width: 100%;
+    padding: 0.2em;
+    margin: auto;
+    flex: 1;
+    justify-content: center;
+    background-color: #1F2833;
+}
+
+.img-logo{
+    max-width: 40%;
+    flex: 1;
+    padding-left: 6em;
+}
+.nav-bar{
+    max-width: 60%;
+    flex: 1;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-top: 0.8em;
+}
+.nav-bar ul li {
+    display: inline-block;  
+    padding: 0.5em;
+    padding-left: 0; 
+    padding-right: 0.5em;  
+}
+
+/*main*/
+.main{
+    display: flex;
+    width: 100%;
+}
+
+/* div class="form-cadastro */
+form{
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.form-cadastro {
+    width: 100%;
+    display: flex;
+    border: solid 0.5em black;
+    flex: 1;
+}
+
+
+/* div class="form-dados"*/
+.form-dados,.form-End {
+    display: inline-flex; 
+}
+
+.form-dados {
+    flex:1;
+    width: 50%;
+}
+/*form-End"*/
+.form-End{
+    
+    flex: 1;
+}
+/* Css Lista */
+ul {
+    list-style: none;
+    display: flex;    
+}
+form li {
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    margin: 2px;
+}
+/* input */
+
+input {
+    padding: auto;
+    text-align: center;
+    width: auto;
+}
+
+/* button */
+.btnCadastro {
+    padding: 1em;
+}
+
+button {
+    padding: 0.5em;
+    width: 8em;
+}

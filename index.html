@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <header class="cabecalho">
+            <div class="img-logo">
+                <img src="https://img.icons8.com/officel/80/create-new.png" alt="create-new"/>
+            </div>
+            <div class="nav-bar" >
+              <nav>
+                <ul>
+                    <li>
+                        <a href="#">Novo Cadastro</a>
+                    </li>
+                    <li>
+                        <a href="#">Cadastrados</a>
+                    </li>
+                </ul>
+              </nav>                
+            </div>
+
+        </header>
+        <section class="main">
+            <div class="form-cadastro">
+                <form>
+                    <fieldset>
+                        <legend>Dados Pessoais</legend>
+                        <div class="form-dados">
+                            <ul>
+                                <li>
+                                    <label for="name">Nome completo</label>
+                                    <input type="text" id="name" placeholder="Digite seu nome" aria-label="Nome completo, por favor digite seu nome completo">
+                                </li>
+                                <li>
+                                    <label for="cpf">CPF</label>
+                                    <input type="text" id="cpf" placeholder="Digite seu CPF" aria-label="CPF, por favor digite seu número de CPF">
+                                </li>
+                                <li>
+                                    <label for="email">Digite seu e-mail</label>
+                                    <input type="email" id="email" placeholder="Digite seu e-mail" aria-label="E-mail, por favor digite seu endereço de e-mail">
+                                </li>                                
+                            </ul>
+                        </div>                        
+                    </fieldset>
+                    <fieldset>
+                        <legend>Endereço</legend>
+                        <div class="form-End">
+                            <ul>
+                                <li>
+                                    <label for="cep">CEP</label>
+                                    <input type="text" id="cep" placeholder="Digite o CEP" aria-label="Por favor digite seu CEP">
+                                </li>
+                                <li>
+                                    <label for="endereco">Endereço:</label>
+                                    <input type="text" id="endereco" placeholder="Digite nome da sua rua" aria-label="Digite seu Endereço">
+                                </li>
+                                <li>
+                                    <label for="bairro">Bairro</label>
+                                    <input type="text" id="bairro" placeholder="Digite o nome do bairro" aria-label="Digite o nome do seu bairro">
+                                </li>
+                                <li>
+                                    <label for="estado">Estado</label>
+                                    <input type="text" id="estado" placeholder="Digite seu estado" aria-label="Digite o seu estado">
+                                </li>
+                            </ul>
+                        </div>
+                    </fieldset>
+                    <div class="btnCadastro">
+                        <button type="submit">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <footer>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
