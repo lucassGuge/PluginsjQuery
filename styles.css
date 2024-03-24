@@ -78,28 +78,24 @@ form {
 }
 
 /* Formulário Dados */
-.form-dados,
-.form-End {
-    padding-left: 20em;
-}
-
 .form-dados ul li,
 .form-End ul li {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+    width: 100%;
     padding: 5px;
+    text-align: center;
+    list-style: none;
 }
 
 .form-dados ul li label,
 .form-End ul li label {
-    text-align: center;
+    display: block;
     margin-bottom: 5px;
 }
 
 .form-dados ul li input,
 .form-End ul li input {
-    width: 100%;
+    width: 70%;
+    margin: 0 auto;
     padding: 5px;
     text-align: center;
 }
