@@ -8,17 +8,19 @@ body {
     font-style: normal;
     color: antiquewhite;
 }
-.container{
+
+.container {
     display: flex;
     width: 100%;
     flex-direction: column;
-    
 }
+
 a {
-    text-decoration: none; 
-    color: inherit; 
+    text-decoration: none;
+    color: inherit;
 }
-/* Cabecalho*/
+
+/* Cabecalho */
 .cabecalho {
     display: flex;
     width: 100%;
@@ -29,39 +31,45 @@ a {
     background-color: #1F2833;
 }
 
-.img-logo{
+.img-logo {
     max-width: 34%;
     flex: 1;
     padding-left: 6em;
 }
-.nav-bar{
+
+.nav-bar {
     max-width: 66%;
     flex: 1;
     justify-content: space-between;
     padding-left: 0;
     padding-top: 0.8em;
 }
+
 .nav-bar ul li {
-    display: inline-block;  
+    display: inline-block;
     padding: 0.5em;
-    padding-left: 0; 
-    padding-right: 0.5em;  
+    padding-left: 0;
+    padding-right: 0.5em;
 }
+
 nav {
     padding: 0;
 }
-/*main*/
-.main{
+
+/* Main */
+.main {
     display: flex;
     width: 100%;
 }
 
-/* div class="form-cadastro */
-form{
+/* Formulário */
+form {
     width: 100%;
     text-align: center;
     flex-wrap: wrap;
 }
+
+
 .form-cadastro {
     width: 100%;
     display: flex;
@@ -69,48 +77,41 @@ form{
     flex: 1;
 }
 
-
-/* div class="form-dados"*/
-.form-dados,.form-End {
-    display: inline-flex; 
+/* Formulário Dados */
+.form-dados,
+.form-End {
+    padding-left: 20em;
 }
 
-.form-dados {
-    flex:1;
+.form-dados ul li,
+.form-End ul li {
+    display: flex;
+    flex-direction: column;
     width: 50%;
+    padding: 5px;
 }
-/*form-End"*/
-.form-End{
-    
-    flex: 1;
+
+.form-dados ul li label,
+.form-End ul li label {
+    text-align: center;
+    margin-bottom: 5px;
 }
-/* Css Lista */
-ul {
-    list-style: none;
-    display: flex;    
-}
-form li {
-    padding: 0;
+
+.form-dados ul li input,
+.form-End ul li input {
+    width: 100%;
+    padding: 5px;
     text-align: center;
 }
 
-li {
-    margin: 2px;
-}
-/* input */
-
-input {
-    padding: auto;
-    text-align: center;
-    width: auto;
-}
-
-/* button */
+/* Botão */
 .btnCadastro {
+    text-align: center;
     padding: 1em;
 }
 
 button {
     padding: 0.5em;
     width: 8em;
+    margin: auto;
 }
